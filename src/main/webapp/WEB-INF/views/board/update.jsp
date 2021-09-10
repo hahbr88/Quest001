@@ -30,7 +30,7 @@
 <body>
 <h2>수정</h2>
 <form name="frm" action="updateOk.do" method="post" onsubmit="return chkSubmit()">
-<input type="hidden" name="uib" value="${list[0].uid }"/>
+<input type="hidden" name="uid" value="${list[0].uid }"/>
 이름:<input type="text" name="name" value="${list[0].name }"/><span style="color:red">${ERROR.name }</span><br>
 종류:
 <input type="text" name="kind" value="${list[0].kind }"/><span style="color:red">${ERROR.kind }</span><br>

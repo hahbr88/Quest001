@@ -38,7 +38,7 @@ function chkDelete(uid){
 		<br>
 		이름 : ${list[0].name }<br>
 		작성자 : ${list[0].kind }<br>
-		제목: ${list[0].priCe }<br>
+		제목: ${list[0].price }<br>
 	
 	
 		<br>

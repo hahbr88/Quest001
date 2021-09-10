@@ -13,7 +13,7 @@
 	<c:otherwise>
 		<script>
 			alert("등록 성공");
-			location.href = "view.do?uid=${dto.uib}";
+			location.href = "view.do?uid=${dto.uid}";
 		</script>
 	</c:otherwise>
 </c:choose>
